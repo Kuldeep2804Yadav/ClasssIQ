@@ -3,7 +3,6 @@ const courses = [
     id: 1,
     title: "Web Development",
     icon: "code-2",
-    
   },
   {
     id: 2,
@@ -29,6 +28,16 @@ const courses = [
     id: 6,
     title: "Digital Marketing",
     icon: "megaphone",
+  },
+  {
+    id: 7,
+    title: "Cloud Computing",
+    icon: "cloud",
+  },
+  {
+    id: 8,
+    title: "Cybersecurity",
+    icon: "shield-check",
   },
 ];
 
