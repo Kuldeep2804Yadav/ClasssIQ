@@ -1,3 +1,6 @@
+const isPage = window.location.pathname.includes("/pages/");
+const path = isPage ? "../" : "./";
+
 async function loadComponent(elementId, filePath) {
   const element = document.getElementById(elementId);
   if (!element) return;
@@ -12,5 +15,5 @@ async function loadComponent(elementId, filePath) {
     console.log(error);
   }
 }
-loadComponent("navbar", "./components/navbar.html");
-loadComponent("footer", "./components/footer.html");
+loadComponent("navbar", `${path}components/navbar.html`);
+loadComponent("footer", `${path}components/footer.html`);
