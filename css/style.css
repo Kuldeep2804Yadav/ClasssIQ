@@ -251,8 +251,7 @@ body {
 }
 
 .explore-courses-btn {
-  width: 215px;
-  height: 53px;
+ 
   margin-top: 20px;
   background-color: var(--primary-color);
   color: var(--black);
@@ -260,6 +259,8 @@ body {
   border-radius: 4px;
   font-size: 19px;
   font-weight: 500;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 .explore-courses-btn:hover {
   background-color: #c2f578;
