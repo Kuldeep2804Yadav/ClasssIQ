@@ -1,14 +1,12 @@
 body {
   min-height: 100vh;
-  background-color: rgb(245 245 245) ;
+  background-color: rgb(245 245 245);
 }
 
 :root {
   --primary-color: #c2f578;
   --black: #000000;
 }
-
-
 
 .classiq-navbar {
   height: 76px;
@@ -269,6 +267,7 @@ body {
   box-shadow: var(--sds-size-depth-0) var(--sds-size-depth-025)
     var(--sds-size-depth-100) var(--sds-size-depth-0) var(--sds-color-black-100);
   background-color: #ecedef;
+  /* padding: 30px; */
 }
 
 .cources-heading {
@@ -319,7 +318,7 @@ body {
 
 .all-in-one-solution-image-card {
   background-color: #ecedef;
-  width: 548px;
+  width: 50%;
   height: 517px;
   position: relative;
   overflow: hidden;
@@ -338,13 +337,12 @@ body {
 }
 
 .solution-boy-image {
-  width: 420px;
+  width: 100%;
   height: 420px;
   object-fit: contain;
-
   position: absolute;
   bottom: -10px;
-  left: 120px;
+  left: 40px;
 
   z-index: 1;
 }
@@ -402,6 +400,49 @@ body {
   .hero-image-wrapper {
     margin-top: 50px;
     display: none;
+  }
+  .company-img-container {
+    overflow: auto;
+    scrollbar-width: none;
+    width: 100%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    column-gap: 50px !important;
+  }
+  .cource-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .all-in-one-solution-image-card  {
+    width: 100%;
+  }
+  .all-in-one-solution-container  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .solution-boy-image  {
+    left: 0px;
+  }
+
+   .classiq-navbar .navbar-collapse {
+    padding: 20px 0;
+  }
+
+  .classiq-navbar .navbar-nav {
+    margin-left: 0 !important;
+  }
+
+  .classiq-navbar .nav-link {
+    padding: 10px 0;
+  }
+
+  .classiq-auth-btn {
+    width: 100%;
   }
 }
 

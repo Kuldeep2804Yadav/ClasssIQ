@@ -1,5 +1,6 @@
-<nav class="navbar navbar-expand-lg s classiq-navbar">
+<nav class="navbar navbar-expand-lg classiq-navbar">
   <div class="container">
+
     <a class="navbar-brand d-flex align-items-center gap-2" href="../index.html">
       <img src="../assets/Logo.svg" alt="ClassIQ Logo" width="49" height="49" />
 
@@ -8,22 +9,35 @@
       </span>
     </a>
 
-    <ul class="navbar-nav ms-5">
-      <li class="nav-item">
-        <a class="nav-link text-black" href="#">
-          Courses
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#classiqNavbar"
+      aria-controls="classiqNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      
+    </button>
+
+    <div class="collapse navbar-collapse" id="classiqNavbar">
+
+      <ul class="navbar-nav ms-lg-5">
+        <li class="nav-item">
+          <a class="nav-link text-black" href="../courses.html">
+            Courses
+          </a>
+        </li>
+      </ul>
+
+      <div
+        class="d-flex flex-column flex-lg-row align-items-stretch align-items-lg-center gap-2 gap-lg-3 ms-lg-auto mt-3 mt-lg-0">
+
+        <a href="../login.html" class="btn btn-dark classiq-auth-btn">
+          Login
         </a>
-      </li>
-    </ul>
 
-    <div class="d-flex align-items-center gap-3 ms-auto">
-      <button type="button" class="btn btn-dark classiq-auth-btn">
-        Login
-      </button>
+        <a href="../signup.html" class="btn btn-dark classiq-auth-btn">
+          Signup
+        </a>
 
-      <button type="button" class="btn btn-dark classiq-auth-btn">
-        Signup
-      </button>
+      </div>
+
     </div>
   </div>
 </nav>
