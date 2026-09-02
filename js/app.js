@@ -17,3 +17,5 @@ async function loadComponent(elementId, filePath) {
 }
 loadComponent("navbar", `${path}components/navbar.html`);
 loadComponent("footer", `${path}components/footer.html`);
+loadComponent("coursecard", `${path}components/coursecard.html`);
+

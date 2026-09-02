@@ -1,0 +1,149 @@
+.logo-link {
+  text-decoration: none;
+  color: #111;
+}
+
+.logo-icon {
+  width: 23px;
+  height: 23px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #b8fa68;
+  border-radius: 5px;
+
+  font-size: 13px;
+}
+
+.logo-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.courses {
+  font-size: 9px;
+}
+
+.nav-btn {
+  padding: 5px 15px;
+  font-size: 9px;
+}
+
+.signup-section {
+  padding-top: 45px;
+}
+
+.signup-card {
+  width: 100%;
+  max-width: 300px;
+
+  background-color: #eeeeee;
+}
+
+.signup-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-control {
+  height: 32px;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 18px;
+  border: 2px solid #000000;
+}
+
+.form-control::placeholder {
+  color: #111;
+  opacity: 1;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border-color: #222;
+
+  box-shadow: 0 0 0 2px rgba(184, 250, 104, 0.4);
+}
+
+
+
+.signup-btn {
+ 
+  background-color: #C2F578;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.signup-btn:hover {
+  background-color: #C2F578;
+}
+
+.signup-text {
+  font-size: 18px;
+}
+
+.signup-text a {
+  color: #111;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 20px !important;
+  }
+
+  .courses {
+    display: none;
+  }
+
+  .nav-btn {
+    padding: 6px 12px;
+    font-size: 9px;
+  }
+
+  .signup-section {
+    padding: 20px;
+  }
+
+  .signup-card {
+    max-width: 100%;
+    padding: 30px !important;
+  }
+
+  .signup-title {
+    font-size: 17px;
+  }
+
+  .form-control {
+    height: 42px;
+    font-size: 12px;
+  }
+
+  .signup-btn {
+    height: 42px;
+    font-size: 12px;
+  }
+
+  .forgot-password {
+    font-size: 10px;
+  }
+
+  .signup-text {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar {
+    padding: 16px !important;
+  }
+
+  .signup-section {
+    padding: 16px;
+  }
+
+  .signup-card {
+    padding: 22px !important;
+  }
+}
